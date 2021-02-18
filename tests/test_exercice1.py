@@ -1,16 +1,7 @@
 from exercices.exercice1 import *
 
-def test_taille():
-    ## Ici le code d'initialisation si nécessaire
-    a = {
-        'F':['B','G'],
-        'B':['A','D'],
-        'A':['',''],
-        'D':['C','E'],
-        'C':['',''],
-        'E':['',''],
-        'G':['','I'],
-        'I':['','H'],
-        'H':['','']
-    }
-    assert taille(a,'F') == 9
+def test_rendu():
+    
+    assert rendu(13) == [2,1,1]
+    assert rendu(64) == [12,2,0]
+    assert rendu(89) == [17,2,1]
