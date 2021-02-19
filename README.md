@@ -15,7 +15,7 @@ Il faut lire :
 Il faut lire :  
 <pre><code style="background-color:black;color:white;width:100%;font-size: large;">  
 class Maillon:
-    def __init__(self, v, s=None):    # ATTENTION manque 2e paramètre !
+    def __init__(self, v, s):    # ATTENTION manque 2e paramètre !
         self.valeur = v
         self.suivant = s
 </code></pre>
