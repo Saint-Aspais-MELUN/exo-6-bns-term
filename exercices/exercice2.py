@@ -1,15 +1,14 @@
 class Maillon :
-    def __init__(self,v) :
+    def __init__(self,v, s = None) : # Attention dans le sujet pdf il manque le 2e paramètre !
         self.valeur = v
-        self.suivant = None
-
+        self.suivant = s # Attention dans le sujet pdf il y a une erreur ici
+  
 class File :
     def __init__(self) :
         self.dernier_file = None
 
     def enfile(self,element) :
-        nouveau_maillon = Maillon(...) #corrigée
-        nouveau_maillon.suivant = self.dernier_file #corrigée
+        nouveau_maillon = Maillon(..., self.dernier_file)
         self.dernier_file = ...
 
     def est_vide(self) :
