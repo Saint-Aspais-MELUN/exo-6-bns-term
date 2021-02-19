@@ -3,7 +3,7 @@
 Ce sujet comporte deux exercices.
 
 Pour le premier exercice, vous devez écrire une fonction `rendu` (voir le PDF ci-joint)  
-** Attention : erreur dans le fichier sujet pdf : **  
+**Attention : erreur dans le fichier sujet pdf :**  
 Il faut lire :  
 <pre><code style="background-color:black;color:white;width:100%;font-size: large;">  
 >>> rendu(89)
