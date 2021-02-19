@@ -1,5 +1,5 @@
 class Maillon :
-    def __init__(self,v, s = None) : # Attention dans le sujet pdf il manque le 2e paramètre !
+    def __init__(self,v, s) : # Attention dans le sujet pdf il manque le 2e paramètre !
         self.valeur = v
         self.suivant = s # Attention dans le sujet pdf il y a une erreur ici
   
